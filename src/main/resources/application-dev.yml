@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver- class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot_blog?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 2456446341
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+logging:
+  level:
+    root: info
+    cn.fairyzww: debug
+  file:
+    name: log/blog-dev.log
