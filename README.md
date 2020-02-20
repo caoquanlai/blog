@@ -50,6 +50,15 @@ spring:
 
 后台管理：http://localhost:8080/admin
 
+初始化管理员数据
+
+```mysql
+insert into `t_user` ( `avatar`, `password`, `update_time`, `id`, `nickname`, `email`, `create_time`, `type`, `username`) values ( 'https://unsplash.it/100/100?image=1005', '96e79218965eb72c92a549dd5a330112', '2019-10-15 12:36:23', '1', '管理员', '123@qq.com', '2019-10-15 12:36:04', '1', 'admin');
+```
+
+用户名：admin
+密码：111111
+
 ![](images/登录.png)
 
 
